@@ -20,7 +20,7 @@ require('./config/database');
 require('./models/user');
 
 // Pass the global passport object into the configuration function
-require('./config/passport')(passport);
+// require('./config/passport')(passport);
 
 // This will initialize the passport object on every request
 app.use(passport.initialize());
